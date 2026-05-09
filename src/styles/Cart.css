@@ -1,0 +1,10 @@
+.cart-style {
+    padding: 32px;
+    background-color: #31b572;
+    color: white;
+    text-align: left;
+}
+
+.cart-style h2 {
+    color: white;
+}
