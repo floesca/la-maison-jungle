@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Banner />
-      <Cart />
+      {/* <Cart /> */}
       <ShoppingList />
     </div>
   )
