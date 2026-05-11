@@ -1,5 +1,6 @@
 import { plantList } from '../assets/datas/plantList'
 import '../styles/ShoppingList.css'
+import PlantItem from './PlantItem'
 
 function ShoppingList() {
     const categories = plantList.reduce( // extrait les catégories sans doublons
@@ -16,13 +17,15 @@ function ShoppingList() {
 				))}
 			</ul>
 			<ul className='lmj-plant-list'>
-				{plantList.map((plant) => ( // crée une liste des plantes
-					<li key={plant.id} className='lmj-plant-item'>
-						{plant.isBestSale && <span>🔥 </span>} 
-						{plant.name}
-						{plant.isSpecialOffer && <div className='lmj-sales'>Soldes</div>}
-					</li> 
-				))}
+				{plantList.map(({ id, cover, name, water, light }) => (
+					<PlantItem
+						id={id}
+						cover={cover}
+						name={name}
+						water={water}
+						light={light}
+					/>
+				))}	
 			</ul>
 		</div>
 	)

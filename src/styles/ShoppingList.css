@@ -1,26 +1,14 @@
 .lmj-sales {
-    border-radius: 16px;
     border: 1px solid #31b572;
     text-align: center;
     line-height: 1.35rem;
     display: inline-block;
     padding: 1px 6px;
-    margin: 0 5px;
     background: #31b572;
     color: black;
-}
-
-.lmj-plant-item {
-    border: solid 2px black;
-    border-radius: 10px;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+    position: absolute;
+    top: 20px;
+    right: 0px;
 }
 
 .lmj-plant-list {
@@ -29,4 +17,17 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
+}
+
+.lmj-best-sale {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    border: 1px solid #f5df19;
+    text-align: center;
+    line-height: 1.35rem;
+    display: inline-block;
+    padding: 1px 6px;
+    background: #f5df19;
+    color: black;
 }

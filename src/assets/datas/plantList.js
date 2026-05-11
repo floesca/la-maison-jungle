@@ -1,60 +1,78 @@
+import monstera from '../monstera.jpg'
+
 export const plantList = [
-  {
-    name: 'monstera',
-    category: 'classique',
-    id: '1ed',
-    isBestSale: true
-  },
-  {
-    name: 'ficus lyrata',
-    category: 'classique', 
-    id: '2ab',
-    isBestSale: false
-  },
-  {
-    name: 'pothos argenté',
-    category: 'classique',
-    id: '3sd',
-    isBestSale: false
-  },
-  {
-    name: 'yucca',
-    category: 'exterieur',
-    id: '4kk',
-    isBestSale: true
-  },
-  {
-    name: 'palmier',
-    category: 'exterieur',
-    id: '5pl',
-    isBestSale: false
-  }, 
-  	{
+	{
+		name: 'monstera',
+		category: 'classique',
+		id: '1ed',
+		isBestSale: true,
+		light: 2,
+		water: 3,
+		cover: monstera
+	},
+	{
+		name: 'ficus lyrata',
+		category: 'classique',
+		id: '2ab',
+		light: 3,
+		water: 1,
+		cover: monstera
+	},
+	{
+		name: 'pothos argenté',
+		category: 'classique',
+		id: '3sd',
+		light: 1,
+		water: 2,
+		cover: monstera
+	},
+	{
+		name: 'yucca',
+		category: 'classique',
+		id: '4kk',
+		light: 3,
+		water: 1,
+		cover: monstera
+	},
+	{
 		name: 'olivier',
 		category: 'extérieur',
 		id: '5pl',
-		isAvailable: false
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'géranium',
 		category: 'extérieur',
-		id: '6uo'
+		id: '6uo',
+		light: 2,
+		water: 2,
+		cover: monstera
 	},
 	{
 		name: 'basilique',
 		category: 'extérieur',
 		id: '7ie',
-		isSpecialOffer: true
+		isBestSale: true,
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'aloe',
 		category: 'plante grasse',
 		id: '8fp',
-		isSpecialOffer: true
+		light: 2,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'succulente',
 		category: 'plante grasse',
-		id: '9vn'
+		id: '9vn',
+		light: 2,
+		water: 1,
+		cover: monstera
 	}
 ]
